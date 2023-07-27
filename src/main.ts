@@ -4,20 +4,30 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-let currentPopup: any = undefined;
+let popWelcome: any = undefined;
+let popBuilding: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-    console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags)
 
-    WA.room.area.onEnter('clock').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
+    WA.room.onEnterLayer('zoneWelcome').subscribe(() => {
+        popWelcome = WA.ui.openPopup("popupWelcome","Hi guys, welcome on the BBI travel Hub ! To find your way, consult the map here.", [
+            {
+                className: "primary",
+                label: "Open the map",
+                callback: () => { WA.nav.openCoWebSite("/map.pdf") }
+            }
+        ]);
     })
 
-    WA.room.area.onLeave('clock').subscribe(closePopup)
+    WA.room.onLeaveLayer('zoneWelcome').subscribe(closePopUp)
+
+    WA.room.onEnterLayer('zoneBuilding').subscribe(() => {
+        popBuilding = WA.ui.openPopup("popupBuilding","POPPPPP",[]);
+    })
+
+    WA.room.onLeaveLayer('zoneBuilding').subscribe(closePopUp)
+
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
@@ -26,10 +36,14 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-function closePopup(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
+function closePopUp(){
+    if (popWelcome !== undefined) {
+        popWelcome.close();
+        popWelcome = undefined;
+    }
+    if (popBuilding !== undefined) {
+        popBuilding.close();
+        popBuilding = undefined;
     }
 }
 
