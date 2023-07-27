@@ -12,7 +12,7 @@ WA.onInit().then(() => {
 
 
     WA.room.onEnterLayer('zoneComptoir1').subscribe(() => {
-        popup = WA.ui.openPopup("comptoir1Popup","Hello, you are rather tropical climate or Caribbean climate ?",
+        popup = WA.ui.openPopup("comptoir1Popup","Hello, become a lean all-star, start your journey here!",
             [{
                 label: "Tropical",
                 className: "primary",
@@ -30,7 +30,7 @@ WA.onInit().then(() => {
         );
     })
     WA.room.onEnterLayer('zoneComptoir2').subscribe(() => {
-        popup = WA.ui.openPopup("comptoir2Popup","Good morning, you are a beach or culture person?",[
+        popup = WA.ui.openPopup("comptoir2Popup","Hello, lean thinking videos, choose and enjoy!",[
             {
                 label: "Beach",
                 className: "primary",
@@ -77,9 +77,9 @@ WA.onInit().then(() => {
         ]);
     })
     WA.room.onEnterLayer('zoneSecurity').subscribe(() => {
-        popup = WA.ui.openPopup("securityPopup","At the BBI, we made great airports! Want to see the proof in the pudding?",[
+        popup = WA.ui.openPopup("securityPopup","At VSL, we have participated in the construction of great airports! Check it out!",[
             {
-                label: "YES",
+                label: "Watch video",
                 className: "primary",
                 callback: async () => {
                     website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/531707800');
