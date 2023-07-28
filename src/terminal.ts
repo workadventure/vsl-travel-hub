@@ -105,6 +105,76 @@ WA.onInit().then(() => {
     })
     WA.room.area.onLeave('departureBoard2').subscribe(closePopup)
 
+    WA.room.area.onEnter('presentationScreen1').subscribe(() => {
+        popup = WA.ui.openPopup("presentationScreen1Popup","Check out our event presentation.",[
+            {
+                label: "See the presentation",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.presentationScreenURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('presentationScreen1').subscribe(closePopup)
+
+    WA.room.area.onEnter('presentationScreen2').subscribe(() => {
+        popup = WA.ui.openPopup("presentationScreen2Popup","Check out our event presentation.",[
+            {
+                label: "See the presentation",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.presentationScreenURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('presentationScreen2').subscribe(closePopup)
+
+    WA.room.area.onEnter('presentationScreen3').subscribe(() => {
+        popup = WA.ui.openPopup("presentationScreen3Popup","Check out our event presentation.",[
+            {
+                label: "See the presentation",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.presentationScreenURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('presentationScreen3').subscribe(closePopup)
+
+    WA.room.area.onEnter('presentationScreen4').subscribe(() => {
+        popup = WA.ui.openPopup("presentationScreen4Popup","Check out our event presentation.",[
+            {
+                label: "See the presentation",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.presentationScreenURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('presentationScreen4').subscribe(closePopup)
+
+    WA.room.area.onEnter('presentationScreen5').subscribe(() => {
+        popup = WA.ui.openPopup("presentationScreen5Popup","Check out our event presentation.",[
+            {
+                label: "See the presentation",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.presentationScreenURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('presentationScreen5').subscribe(closePopup)
+
     WA.room.onEnterLayer('zoneSecurity').subscribe(() => {
         popup = WA.ui.openPopup("securityPopup","At VSL, we have participated in the construction of great airports! Check it out!",[
             {
