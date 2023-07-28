@@ -76,6 +76,35 @@ WA.onInit().then(() => {
             }
         ]);
     })
+
+    WA.room.area.onEnter('departureBoard1').subscribe(() => {
+        popup = WA.ui.openPopup("departureBoard1Popup","Check out the presentations schedule.",[
+            {
+                label: "Open schedule",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.departureBoardURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('departureBoard1').subscribe(closePopup)
+
+    WA.room.area.onEnter('departureBoard2').subscribe(() => {
+        popup = WA.ui.openPopup("departureBoard2Popup","Check out the presentations schedule.",[
+            {
+                label: "Open schedule",
+                className: "primary",
+                callback: async () => {
+                    let url = WA.state.departureBoardURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('departureBoard2').subscribe(closePopup)
+
     WA.room.onEnterLayer('zoneSecurity').subscribe(() => {
         popup = WA.ui.openPopup("securityPopup","At VSL, we have participated in the construction of great airports! Check it out!",[
             {
