@@ -5701,6 +5701,12 @@
                  "y":2000.5
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"tag",
+                 "type":"string",
+                 "value":"admin"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -6456,7 +6462,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"Inside airport"
+         "value":"VSL Be More Festival - Travel hub: Terminal map"
         }, 
         {
          "name":"mapImage",

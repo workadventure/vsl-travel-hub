@@ -3002,7 +3002,7 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"VSL Be More Festival - Travel hub: Welcome map"
         }, 
         {
          "name":"mapImage",
@@ -3012,7 +3012,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Welcome"
+         "value":"VSL Welcome"
         }, 
         {
          "name":"script",
