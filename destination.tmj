@@ -1076,7 +1076,7 @@
                  "class":"variable",
                  "height":0,
                  "id":2,
-                 "name":"exitSouthURL",
+                 "name":"exitURL",
                  "point":true,
                  "properties":[
                         {
@@ -1092,7 +1092,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"South exit URL"
+                         "value":"Exit URL"
                         }, 
                         {
                          "name":"persist",
