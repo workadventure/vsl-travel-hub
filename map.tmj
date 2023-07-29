@@ -2149,7 +2149,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/bci\/hub_airport\/vietnam"
+                         "value":"\/@\/bci\/hub_airport\/vsl-terminal#from-welcome"
                         }],
                  "rotation":0,
                  "visible":true,
