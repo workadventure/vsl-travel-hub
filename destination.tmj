@@ -1048,7 +1048,7 @@
                 {
                  "name":"visible",
                  "type":"string",
-                 "value":"{{^exitSouthURL}}1{{\/exitSouthURL}}"
+                 "value":"{{^exitURL}}1{{\/exitURL}}"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1265,7 +1265,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":33,
          "id":23,
-         "name":"over bottom",
+         "name":"above1",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -1309,7 +1309,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":33,
          "id":15,
-         "name":"over",
+         "name":"above2",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -1353,7 +1353,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":33,
          "id":35,
-         "name":"over-1",
+         "name":"above3",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
