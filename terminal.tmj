@@ -4932,7 +4932,7 @@
                  "visible":true,
                  "width":64,
                  "x":256,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5017,7 +5017,7 @@
                  "visible":true,
                  "width":64,
                  "x":544,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5068,7 +5068,7 @@
                  "visible":true,
                  "width":64,
                  "x":832,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5119,7 +5119,7 @@
                  "visible":true,
                  "width":64,
                  "x":1120,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5170,7 +5170,7 @@
                  "visible":true,
                  "width":64,
                  "x":1408,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5221,7 +5221,7 @@
                  "visible":true,
                  "width":64,
                  "x":1792,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5272,7 +5272,7 @@
                  "visible":true,
                  "width":64,
                  "x":2080,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5323,7 +5323,7 @@
                  "visible":true,
                  "width":64,
                  "x":2368,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5374,7 +5374,7 @@
                  "visible":true,
                  "width":64,
                  "x":2656,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
@@ -5425,7 +5425,7 @@
                  "visible":true,
                  "width":64,
                  "x":2944,
-                 "y":832
+                 "y":768
                 }, 
                 {
                  "class":"area",
