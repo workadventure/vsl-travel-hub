@@ -2188,34 +2188,6 @@
                 {
                  "class":"variable",
                  "height":0,
-                 "id":13,
-                 "name":"kiosk",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"https:\/\/workadventu.re\/"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Kiosk"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":1323,
-                 "y":2359
-                }, 
-                {
-                 "class":"variable",
-                 "height":0,
                  "id":14,
                  "name":"wall",
                  "point":true,
@@ -2240,6 +2212,34 @@
                  "width":0,
                  "x":1073.83333333333,
                  "y":2355.16666666667
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":13,
+                 "name":"kiosk",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/workadventu.re\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Kiosk"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":1323,
+                 "y":2359
                 }],
          "opacity":1,
          "properties":[

@@ -1113,6 +1113,72 @@
                 {
                  "class":"variable",
                  "height":0,
+                 "id":7,
+                 "name":"southWestTVURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/app.tryeraser.com\/workspace\/ExSd8Z4wPsaqMMgTN4VU?layout=canvas"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Configure the South-West TV URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":"editor"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":161.333333333333,
+                 "y":803.333333333333
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":6,
+                 "name":"northTVURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/app.tryeraser.com\/workspace\/ExSd8Z4wPsaqMMgTN4VU?layout=canvas"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Configure the north TV URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"writableBy",
+                         "type":"string",
+                         "value":"editor"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":641.5,
+                 "y":105
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
                  "id":3,
                  "name":"leftWhiteboardURL",
                  "point":true,
@@ -1175,72 +1241,6 @@
                  "width":0,
                  "x":1187,
                  "y":94
-                }, 
-                {
-                 "class":"variable",
-                 "height":0,
-                 "id":6,
-                 "name":"northTVURL",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"https:\/\/app.tryeraser.com\/workspace\/ExSd8Z4wPsaqMMgTN4VU?layout=canvas"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Configure the north TV URL"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"writableBy",
-                         "type":"string",
-                         "value":"editor"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":641.5,
-                 "y":105
-                }, 
-                {
-                 "class":"variable",
-                 "height":0,
-                 "id":7,
-                 "name":"southWestTVURL",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"https:\/\/app.tryeraser.com\/workspace\/ExSd8Z4wPsaqMMgTN4VU?layout=canvas"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Configure the South-West TV URL"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"writableBy",
-                         "type":"string",
-                         "value":"editor"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":161.333333333333,
-                 "y":803.333333333333
                 }],
          "opacity":1,
          "properties":[

@@ -5458,8 +5458,8 @@
                 {
                  "class":"variable",
                  "height":0,
-                 "id":24,
-                 "name":"dutyFree2URL",
+                 "id":55,
+                 "name":"presentationScreenURL",
                  "point":true,
                  "properties":[
                         {
@@ -5470,7 +5470,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Duty Free booth #2"
+                         "value":"Presentation screen"
                         }, 
                         {
                          "name":"persist",
@@ -5480,36 +5480,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":0,
-                 "x":590,
-                 "y":1361
-                }, 
-                {
-                 "class":"variable",
-                 "height":0,
-                 "id":44,
-                 "name":"departureBoardURL",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"https:\/\/workadventu.re\/"
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Departure board"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":0,
-                 "x":1402,
-                 "y":2237.5
+                 "x":960,
+                 "y":1408
                 }, 
                 {
                  "class":"variable",
@@ -5626,8 +5598,8 @@
                 {
                  "class":"variable",
                  "height":0,
-                 "id":55,
-                 "name":"presentationScreenURL",
+                 "id":44,
+                 "name":"departureBoardURL",
                  "point":true,
                  "properties":[
                         {
@@ -5638,7 +5610,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Presentation screen"
+                         "value":"Departure board"
                         }, 
                         {
                          "name":"persist",
@@ -5648,8 +5620,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":0,
-                 "x":960,
-                 "y":1408
+                 "x":1402,
+                 "y":2237.5
                 }, 
                 {
                  "class":"variable",
@@ -5682,8 +5654,8 @@
                 {
                  "class":"variable",
                  "height":0,
-                 "id":66,
-                 "name":"dutyFree5URL",
+                 "id":24,
+                 "name":"dutyFree2URL",
                  "point":true,
                  "properties":[
                         {
@@ -5694,7 +5666,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Duty Free booth #5"
+                         "value":"Duty Free booth #2"
                         }, 
                         {
                          "name":"persist",
@@ -5704,8 +5676,36 @@
                  "rotation":0,
                  "visible":true,
                  "width":0,
-                 "x":848,
-                 "y":1555.33333333333
+                 "x":590,
+                 "y":1361
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":68,
+                 "name":"dutyFree3URL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/workadventu.re\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Duty Free booth #3"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":175.333333333333,
+                 "y":1558.66666666667
                 }, 
                 {
                  "class":"variable",
@@ -5738,8 +5738,8 @@
                 {
                  "class":"variable",
                  "height":0,
-                 "id":68,
-                 "name":"dutyFree3URL",
+                 "id":66,
+                 "name":"dutyFree5URL",
                  "point":true,
                  "properties":[
                         {
@@ -5750,7 +5750,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Duty Free booth #3"
+                         "value":"Duty Free booth #5"
                         }, 
                         {
                          "name":"persist",
@@ -5760,8 +5760,8 @@
                  "rotation":0,
                  "visible":true,
                  "width":0,
-                 "x":175.333333333333,
-                 "y":1558.66666666667
+                 "x":848,
+                 "y":1555.33333333333
                 }, 
                 {
                  "class":"variable",
