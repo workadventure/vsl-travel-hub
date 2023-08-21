@@ -2240,6 +2240,34 @@
                  "width":0,
                  "x":1323,
                  "y":2359
+                }, 
+                {
+                 "class":"variable",
+                 "height":0,
+                 "id":26,
+                 "name":"welcomeGuyURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"https:\/\/workadventu.re\/"
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Welcome guy URL"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":0,
+                 "x":1200,
+                 "y":2754
                 }],
          "opacity":1,
          "properties":[
@@ -2799,7 +2827,7 @@
          "y":0
         }],
  "nextlayerid":85,
- "nextobjectid":26,
+ "nextobjectid":27,
  "orientation":"orthogonal",
  "properties":[
         {
