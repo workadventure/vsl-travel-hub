@@ -65,17 +65,6 @@ WA.onInit().then(() => {
             }
         ]);
     })
-    WA.room.onEnterLayer('zoneGate').subscribe(() => {
-        popup = WA.ui.openPopup("gatePopup","You want to know the secret life of your suitcase? We explain it all here!",[
-            {
-                label: "Watch",
-                className: "primary",
-                callback: async () => {
-                    website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/452151588');
-                }
-            }
-        ]);
-    })
 
     WA.room.area.onEnter('departureBoard1').subscribe(() => {
         popup = WA.ui.openPopup("departureBoard1Popup","Check out the presentations schedule.",[
@@ -195,7 +184,6 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('zoneBar').subscribe(closePopup)
     WA.room.onLeaveLayer('zoneNFT').subscribe(closePopup)
     WA.room.onLeaveLayer('zoneSecurity').subscribe(closePopup)
-    WA.room.onLeaveLayer('zoneGate').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {

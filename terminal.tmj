@@ -4413,17 +4413,6 @@
                 }, 
                 {
                  "class":"",
-                 "height":141.333333333333,
-                 "id":21,
-                 "name":"gatePopup",
-                 "rotation":0,
-                 "visible":true,
-                 "width":404,
-                 "x":1557.33333333333,
-                 "y":993.333333333333
-                }, 
-                {
-                 "class":"",
                  "height":150.216980082341,
                  "id":23,
                  "name":"securityPopup",
