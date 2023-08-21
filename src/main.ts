@@ -16,7 +16,8 @@ WA.onInit().then(() => {
                 className: "primary",
                 label: "Open the map",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite("/map.pdf")
+                    let url = WA.state.welcomeGuyURL as string
+                    website = await WA.nav.openCoWebSite(url);
                 }
             }
         ]);
