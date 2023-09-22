@@ -4379,51 +4379,50 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "class":"",
                  "height":133,
                  "id":14,
                  "name":"comptoir1Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":2119,
                  "y":2281
                 }, 
                 {
-                 "class":"",
                  "height":132,
                  "id":15,
                  "name":"comptoir2Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":319,
                  "x":2482.66666666667,
                  "y":2282.33333333333
                 }, 
                 {
-                 "class":"",
                  "height":160,
                  "id":16,
                  "name":"barPopup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":328,
                  "x":2861,
                  "y":1617
                 }, 
                 {
-                 "class":"",
                  "height":150.216980082341,
                  "id":23,
                  "name":"securityPopup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":290.41949482586,
                  "x":1600,
                  "y":1792
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":35,
                  "name":"door_right",
@@ -4455,13 +4454,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2500.5,
                  "y":1931
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":38,
                  "name":"door_left",
@@ -4493,13 +4492,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":2212,
                  "y":1926.33333333333
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":39,
                  "name":"restRoom",
@@ -4510,13 +4509,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":352,
                  "x":160,
                  "y":2208
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":40,
                  "name":"to-vietnam",
@@ -4527,167 +4526,167 @@
                          "value":"\/@\/bci\/hub_airport\/vietnam"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":352,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":48.6666666666667,
                  "id":42,
                  "name":"departureBoard2",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":1536,
                  "y":1344
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":43,
                  "name":"departureBoard2Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":1536,
                  "y":1184
                 }, 
                 {
-                 "class":"area",
                  "height":48.333333333333,
                  "id":45,
                  "name":"departureBoard1",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
                  "x":1152,
                  "y":2208
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":46,
                  "name":"departureBoard1Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":1152,
                  "y":2048
                 }, 
                 {
-                 "class":"area",
                  "height":48.3333,
                  "id":52,
                  "name":"presentationScreen1",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":864,
                  "y":1344
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":53,
                  "name":"presentationScreen1Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":832,
                  "y":1152
                 }, 
                 {
-                 "class":"area",
                  "height":48.3333,
                  "id":56,
                  "name":"presentationScreen2",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1120,
                  "y":1504
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":57,
                  "name":"presentationScreen2Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":1088,
                  "y":1312
                 }, 
                 {
-                 "class":"area",
                  "height":48.3333,
                  "id":58,
                  "name":"presentationScreen3",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1600,
                  "y":1504
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":59,
                  "name":"presentationScreen3Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":1568,
                  "y":1312
                 }, 
                 {
-                 "class":"area",
                  "height":48.3333,
                  "id":60,
                  "name":"presentationScreen4",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2080,
                  "y":1504
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":61,
                  "name":"presentationScreen4Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":2048,
                  "y":1312
                 }, 
                 {
-                 "class":"area",
                  "height":48.3333,
                  "id":62,
                  "name":"presentationScreen5",
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2368,
                  "y":1344
                 }, 
                 {
-                 "class":"",
                  "height":133,
                  "id":63,
                  "name":"presentationScreen5Popup",
                  "rotation":0,
+                 "type":"",
                  "visible":true,
                  "width":318,
                  "x":2336,
                  "y":1152
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":74,
                  "name":"jitsiBooth1",
@@ -4703,13 +4702,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":188,
                  "x":356,
                  "y":1344
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":75,
                  "name":"jitsiBooth2",
@@ -4725,13 +4724,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":218.5,
                  "x":613.5,
                  "y":1344
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":76,
                  "name":"jitsiBooth3",
@@ -4747,13 +4746,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":189,
                  "x":195,
                  "y":1504
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":77,
                  "name":"jitsiBooth4",
@@ -4769,13 +4768,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":92.25,
                  "x":544,
                  "y":1536
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":78,
                  "name":"jitsiBooth5",
@@ -4791,13 +4790,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":93.25,
                  "x":736,
                  "y":1536
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":79,
                  "name":"jitsiBooth6",
@@ -4813,13 +4812,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":92.3636363636364,
                  "x":160,
                  "y":1760
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":80,
                  "name":"jitsiBooth7",
@@ -4835,13 +4834,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":189.25,
                  "x":352,
                  "y":1760
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":81,
                  "name":"jitsiBooth8",
@@ -4857,13 +4856,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":221,
                  "x":608,
                  "y":1760
                 }, 
                 {
-                 "class":"area",
                  "height":160,
                  "id":82,
                  "name":"jitsiBooth9",
@@ -4879,13 +4878,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":221.333333333333,
                  "x":160,
                  "y":1952
                 }, 
                 {
-                 "class":"area",
                  "height":128,
                  "id":83,
                  "name":"jitsiBooth10",
@@ -4901,13 +4900,13 @@
                          "value":"onaction"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":91.3333333333334,
                  "x":512,
                  "y":1984
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":84,
                  "name":"from-vietnam",
@@ -4918,13 +4917,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":256,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":85,
                  "name":"to-welcome",
@@ -4935,13 +4934,13 @@
                          "value":"\/@\/bci\/hub_airport\/vsl-welcome#from-terminal"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":192,
-                 "x":1504,
-                 "y":2688
+                 "x":1508.09779164579,
+                 "y":2685.88553707358
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":86,
                  "name":"from-welcome",
@@ -4952,13 +4951,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
-                 "x":1568,
-                 "y":2656
+                 "x":1565.11843242724,
+                 "y":2622.2571443094
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":87,
                  "name":"to-vietnam",
@@ -4969,13 +4968,13 @@
                          "value":"\/@\/bci\/hub_airport\/vietnam"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":160,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":91,
                  "name":"to-philippines",
@@ -4986,13 +4985,13 @@
                          "value":"\/@\/bci\/hub_airport\/philippines"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":640,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":92,
                  "name":"from-philippines",
@@ -5003,13 +5002,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":544,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":93,
                  "name":"to-philippines",
@@ -5020,13 +5019,13 @@
                          "value":"\/@\/bci\/hub_airport\/philippines"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":448,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":94,
                  "name":"to-hong-kong",
@@ -5037,13 +5036,13 @@
                          "value":"\/@\/bci\/hub_airport\/hong-kong"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":928,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":95,
                  "name":"from-hong-kong",
@@ -5054,13 +5053,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":832,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":96,
                  "name":"to-hong-kong",
@@ -5071,13 +5070,13 @@
                          "value":"\/@\/bci\/hub_airport\/hong-kong"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":736,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":97,
                  "name":"to-china",
@@ -5088,13 +5087,13 @@
                          "value":"\/@\/bci\/hub_airport\/china"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1216,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":98,
                  "name":"from-china",
@@ -5105,13 +5104,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1120,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":99,
                  "name":"to-china",
@@ -5122,13 +5121,13 @@
                          "value":"\/@\/bci\/hub_airport\/china"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1024,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":100,
                  "name":"to-thailand",
@@ -5139,13 +5138,13 @@
                          "value":"\/@\/bci\/hub_airport\/thailand"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1504,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":101,
                  "name":"from-thailand",
@@ -5156,13 +5155,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1408,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":102,
                  "name":"to-thailand",
@@ -5173,13 +5172,13 @@
                          "value":"\/@\/bci\/hub_airport\/thailand"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1312,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":103,
                  "name":"to-malaysia",
@@ -5190,13 +5189,13 @@
                          "value":"\/@\/bci\/hub_airport\/malaysia"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1888,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":104,
                  "name":"from-malaysia",
@@ -5207,13 +5206,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1792,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":105,
                  "name":"to-malaysia",
@@ -5224,13 +5223,13 @@
                          "value":"\/@\/bci\/hub_airport\/malaysia"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1696,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":106,
                  "name":"to-singapore",
@@ -5241,13 +5240,13 @@
                          "value":"\/@\/bci\/hub_airport\/singapore"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2176,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":107,
                  "name":"from-singapore",
@@ -5258,13 +5257,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2080,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":108,
                  "name":"to-singapore",
@@ -5275,13 +5274,13 @@
                          "value":"\/@\/bci\/hub_airport\/singapore"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":1984,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":109,
                  "name":"to-australia",
@@ -5292,13 +5291,13 @@
                          "value":"\/@\/bci\/hub_airport\/australia"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2464,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":110,
                  "name":"from-australia",
@@ -5309,13 +5308,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2368,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":111,
                  "name":"to-australia",
@@ -5326,13 +5325,13 @@
                          "value":"\/@\/bci\/hub_airport\/australia"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2272,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":112,
                  "name":"to-uae",
@@ -5343,13 +5342,13 @@
                          "value":"\/@\/bci\/hub_airport\/uae"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2752,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":113,
                  "name":"from-uae",
@@ -5360,13 +5359,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2656,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":114,
                  "name":"to-uae",
@@ -5377,13 +5376,13 @@
                          "value":"\/@\/bci\/hub_airport\/uae"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2560,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":115,
                  "name":"to-india",
@@ -5394,13 +5393,13 @@
                          "value":"\/@\/bci\/hub_airport\/india"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":3040,
                  "y":544
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":116,
                  "name":"from-india",
@@ -5411,13 +5410,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2944,
                  "y":768
                 }, 
                 {
-                 "class":"area",
                  "height":32,
                  "id":117,
                  "name":"to-india",
@@ -5428,6 +5427,7 @@
                          "value":"\/@\/bci\/hub_airport\/india"
                         }],
                  "rotation":0,
+                 "type":"area",
                  "visible":true,
                  "width":64,
                  "x":2848,
@@ -5445,7 +5445,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":55,
                  "name":"presentationScreenURL",
@@ -5467,13 +5466,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":960,
                  "y":1408
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":47,
                  "name":"game1URL",
@@ -5495,13 +5494,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":352,
                  "y":2464
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":48,
                  "name":"game2URL",
@@ -5523,13 +5522,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":512,
                  "y":2528
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":49,
                  "name":"game3URL",
@@ -5551,13 +5550,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":672,
                  "y":2464
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":51,
                  "name":"game4URL",
@@ -5579,13 +5578,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":800,
                  "y":2464
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":44,
                  "name":"departureBoardURL",
@@ -5607,13 +5606,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":1402,
                  "y":2237.5
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":65,
                  "name":"dutyFree1URL",
@@ -5635,13 +5634,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":339.333333333333,
                  "y":1362
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":24,
                  "name":"dutyFree2URL",
@@ -5663,13 +5662,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":590,
                  "y":1361
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":68,
                  "name":"dutyFree3URL",
@@ -5691,13 +5690,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":175.333333333333,
                  "y":1558.66666666667
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":67,
                  "name":"dutyFree4URL",
@@ -5719,13 +5718,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":658,
                  "y":1553.33333333333
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":66,
                  "name":"dutyFree5URL",
@@ -5747,13 +5746,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":848,
                  "y":1555.33333333333
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":69,
                  "name":"dutyFree6URL",
@@ -5775,13 +5774,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":269,
                  "y":1778
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":70,
                  "name":"dutyFree7URL",
@@ -5803,13 +5802,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":560,
                  "y":1778
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":71,
                  "name":"dutyFree8URL",
@@ -5831,13 +5830,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":847,
                  "y":1778
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":72,
                  "name":"dutyFree9URL",
@@ -5859,13 +5858,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":403,
                  "y":2002
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":73,
                  "name":"dutyFree10URL",
@@ -5887,6 +5886,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":620,
@@ -6672,7 +6672,7 @@
          "value":"src\/terminal.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -15402,6 +15402,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":100
 }
