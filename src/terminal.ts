@@ -66,13 +66,102 @@ WA.onInit().then(() => {
         ]);
     })
 
+    WA.room.area.onEnter('game1').subscribe(() => {
+        popup = WA.ui.openPopup("game1Popup","Needs wording update...",[
+            {
+                label: "Game",
+                className: "normal",
+                callback: async () => {
+                    const url = WA.state.game1URL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            },
+            {
+                label: "Video",
+                className: "primary",
+                callback: async () => {
+                    const url = WA.state.game1VideoURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('game1').subscribe(closePopup)
+
+    WA.room.area.onEnter('game2').subscribe(() => {
+        popup = WA.ui.openPopup("game2Popup","Needs wording update...",[
+            {
+                label: "Game",
+                className: "normal",
+                callback: async () => {
+                    const url = WA.state.game2URL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            },
+            {
+                label: "Video",
+                className: "primary",
+                callback: async () => {
+                    const url = WA.state.game2VideoURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('game2').subscribe(closePopup)
+
+    WA.room.area.onEnter('game3').subscribe(() => {
+        popup = WA.ui.openPopup("game3Popup","Needs wording update...",[
+            {
+                label: "Game",
+                className: "normal",
+                callback: async () => {
+                    const url = WA.state.game3URL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            },
+            {
+                label: "Video",
+                className: "primary",
+                callback: async () => {
+                    const url = WA.state.game3VideoURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('game3').subscribe(closePopup)
+
+    WA.room.area.onEnter('game4').subscribe(() => {
+        popup = WA.ui.openPopup("game4Popup","Needs wording update...",[
+            {
+                label: "Game",
+                className: "normal",
+                callback: async () => {
+                    const url = WA.state.game4URL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            },
+            {
+                label: "Video",
+                className: "primary",
+                callback: async () => {
+                    const url = WA.state.game4VideoURL as string
+                    website = await WA.nav.openCoWebSite(url);
+                }
+            }
+        ]);
+    })
+    WA.room.area.onLeave('game4').subscribe(closePopup)
+
+
     WA.room.area.onEnter('departureBoard1').subscribe(() => {
         popup = WA.ui.openPopup("departureBoard1Popup","Check out the presentations schedule.",[
             {
                 label: "Open schedule",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.departureBoardURL as string
+                    const url = WA.state.departureBoardURL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -86,7 +175,7 @@ WA.onInit().then(() => {
                 label: "Open schedule",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.departureBoardURL as string
+                    const url = WA.state.departureBoardURL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -100,7 +189,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreen1URL as string
+                    const url = WA.state.presentationScreen1URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -114,7 +203,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreen2URL as string
+                    const url = WA.state.presentationScreen2URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -128,7 +217,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreen3URL as string
+                    const url = WA.state.presentationScreen3URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -142,7 +231,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreen4URL as string
+                    const url = WA.state.presentationScreen4URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -156,7 +245,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreen5URL as string
+                    const url = WA.state.presentationScreen5URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
