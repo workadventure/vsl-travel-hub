@@ -100,7 +100,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreenURL as string
+                    let url = WA.state.presentationScreen1URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -114,7 +114,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreenURL as string
+                    let url = WA.state.presentationScreen2URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -128,7 +128,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreenURL as string
+                    let url = WA.state.presentationScreen3URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -142,7 +142,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreenURL as string
+                    let url = WA.state.presentationScreen4URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
@@ -156,7 +156,7 @@ WA.onInit().then(() => {
                 label: "See the presentation",
                 className: "primary",
                 callback: async () => {
-                    let url = WA.state.presentationScreenURL as string
+                    let url = WA.state.presentationScreen5URL as string
                     website = await WA.nav.openCoWebSite(url);
                 }
             }
