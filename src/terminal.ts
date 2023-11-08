@@ -14,17 +14,19 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zoneComptoir1').subscribe(() => {
         popup = WA.ui.openPopup("comptoir1Popup","Hello, become a lean all-star, start your journey here!",
             [{
-                label: "Tropical",
+                label: "Lean construction",
                 className: "primary",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/680787827');
+                    if (website) { website.close(); }
+                    website = await WA.nav.openCoWebSite('https://drive.google.com/file/d/1DnzEbyhQoIxiuZrwgFQohclPjI06rTod/preview');
                 }
             },
             {
-                label: "Caribbean",
+                label: "Lean office",
                 className: "success",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/684568939?h=71107d1cc5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479');
+                    if (website) { website.close(); }
+                    website = await WA.nav.openCoWebSite('https://drive.google.com/file/d/1flv1tGAwpEhuMhVCN14aiRf4XGJI9vH4/preview');
                 }
             }]
         );
@@ -32,17 +34,19 @@ WA.onInit().then(() => {
     WA.room.onEnterLayer('zoneComptoir2').subscribe(() => {
         popup = WA.ui.openPopup("comptoir2Popup","Hello, lean thinking videos, choose and enjoy!",[
             {
-                label: "Beach",
+                label: "Lean principles",
                 className: "primary",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/554125018');
+                    if (website) { website.close(); }
+                    website = await WA.nav.openCoWebSite('https://drive.google.com/file/d/1YV5Do1lPUOT0P4OjPsYDZA9U5n2bmscL/preview');
                 }
             },
             {
-                label: "Culture",
+                label: "Process, why?",
                 className: "success",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/435014076');
+                    if (website) { website.close(); }
+                    website = await WA.nav.openCoWebSite('https://drive.google.com/file/d/10MGmfTueYjrTWG2rMb_UJSloLfrWZ1iU/preview');
                 }
             }
             ]);    

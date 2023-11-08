@@ -26,12 +26,12 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer('zoneWelcome').subscribe(closePopup)
 
     WA.room.onEnterLayer('zoneBuilding').subscribe(() => {
-        popup = WA.ui.openPopup("popupBuilding","Hi, here you can enter the VSL private space.", [
+        popup = WA.ui.openPopup("popupBuilding","A dive into VSL.", [
             {
                 className: "primary",
-                label: "Open a new tab",
+                label: "Open",
                 callback: async () => {
-                    website = await WA.nav.openTab("https://vsl.com/private-space/vsl-job/")
+                    website = await WA.nav.openCoWebSite("https://drive.google.com/uc?id=1sPr2ZLe6pF0rB3jtnzWWw0MGhhAkhNGi")
                 }
             }
         ]);
