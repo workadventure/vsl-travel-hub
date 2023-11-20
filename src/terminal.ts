@@ -70,28 +70,6 @@ WA.onInit().then(() => {
         ]);
     })
 
-    WA.room.area.onEnter('game1').subscribe(() => {
-        popup = WA.ui.openPopup("game1Popup","Needs wording update...",[
-            {
-                label: "Game",
-                className: "normal",
-                callback: async () => {
-                    const url = WA.state.game1URL as string
-                    website = await WA.nav.openCoWebSite(url);
-                }
-            },
-            {
-                label: "Video",
-                className: "primary",
-                callback: async () => {
-                    const url = WA.state.game1VideoURL as string
-                    website = await WA.nav.openCoWebSite(url);
-                }
-            }
-        ]);
-    })
-    WA.room.area.onLeave('game1').subscribe(closePopup)
-
     WA.room.area.onEnter('game2').subscribe(() => {
         popup = WA.ui.openPopup("game2Popup","Needs wording update...",[
             {
@@ -136,28 +114,6 @@ WA.onInit().then(() => {
     })
     WA.room.area.onLeave('game3').subscribe(closePopup)
 
-    WA.room.area.onEnter('game4').subscribe(() => {
-        popup = WA.ui.openPopup("game4Popup","Needs wording update...",[
-            {
-                label: "Game",
-                className: "normal",
-                callback: async () => {
-                    const url = WA.state.game4URL as string
-                    website = await WA.nav.openCoWebSite(url);
-                }
-            },
-            {
-                label: "Video",
-                className: "primary",
-                callback: async () => {
-                    const url = WA.state.game4VideoURL as string
-                    website = await WA.nav.openCoWebSite(url);
-                }
-            }
-        ]);
-    })
-    WA.room.area.onLeave('game4').subscribe(closePopup)
-
 
     WA.room.area.onEnter('departureBoard1').subscribe(() => {
         popup = WA.ui.openPopup("departureBoard1Popup","Check out the presentations schedule.",[
@@ -188,9 +144,9 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('departureBoard2').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen1').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen1Popup","Check out our event presentation.",[
+        popup = WA.ui.openPopup("presentationScreen1Popup","Be More information",[
             {
-                label: "See the presentation",
+                label: "Check it out!",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.presentationScreen1URL as string
@@ -202,9 +158,9 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('presentationScreen1').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen2').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen2Popup","Check out our event presentation.",[
+        popup = WA.ui.openPopup("presentationScreen2Popup","Be More information",[
             {
-                label: "See the presentation",
+                label: "Check it out!",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.presentationScreen2URL as string
@@ -216,9 +172,9 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('presentationScreen2').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen3').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen3Popup","Check out our event presentation.",[
+        popup = WA.ui.openPopup("presentationScreen3Popup","Be More information",[
             {
-                label: "See the presentation",
+                label: "Check it out!",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.presentationScreen3URL as string
@@ -230,9 +186,9 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('presentationScreen3').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen4').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen4Popup","Check out our event presentation.",[
+        popup = WA.ui.openPopup("presentationScreen4Popup","Be More information",[
             {
-                label: "See the presentation",
+                label: "Check it out!",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.presentationScreen4URL as string
@@ -244,9 +200,9 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('presentationScreen4').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen5').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen5Popup","Check out our event presentation.",[
+        popup = WA.ui.openPopup("presentationScreen5Popup","Be More information",[
             {
-                label: "See the presentation",
+                label: "Check it out!",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.presentationScreen5URL as string
@@ -263,7 +219,7 @@ WA.onInit().then(() => {
                 label: "Watch video",
                 className: "primary",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite('https://player.vimeo.com/video/531707800');
+                    website = await WA.nav.openCoWebSite('https://drive.google.com/uc?id=1lQXip2NvwF1dpCpBpjFkLTCxXu7yjpSw');
                 }
             }
         ]);
