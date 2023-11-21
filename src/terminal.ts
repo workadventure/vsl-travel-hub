@@ -71,9 +71,9 @@ WA.onInit().then(() => {
     })
 
     WA.room.area.onEnter('game2').subscribe(() => {
-        popup = WA.ui.openPopup("game2Popup","Needs wording update...",[
+        popup = WA.ui.openPopup("game2Popup","5S Alphabet",[
             {
-                label: "Game",
+                label: "Let's play!",
                 className: "normal",
                 callback: async () => {
                     const url = WA.state.game2URL as string
@@ -81,7 +81,7 @@ WA.onInit().then(() => {
                 }
             },
             {
-                label: "Video",
+                label: "Instructions",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.game2VideoURL as string
@@ -93,9 +93,9 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('game2').subscribe(closePopup)
 
     WA.room.area.onEnter('game3').subscribe(() => {
-        popup = WA.ui.openPopup("game3Popup","Needs wording update...",[
+        popup = WA.ui.openPopup("game3Popup","Lean tetris",[
             {
-                label: "Game",
+                label: "Let's play!",
                 className: "normal",
                 callback: async () => {
                     const url = WA.state.game3URL as string
@@ -103,7 +103,7 @@ WA.onInit().then(() => {
                 }
             },
             {
-                label: "Video",
+                label: "Instructions",
                 className: "primary",
                 callback: async () => {
                     const url = WA.state.game3VideoURL as string

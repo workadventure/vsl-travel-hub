@@ -4972,7 +4972,7 @@
                  "y":2400
                 }, 
                 {
-                 "height":128,
+                 "height":99.5,
                  "id":131,
                  "name":"game2Popup",
                  "rotation":0,
@@ -4980,10 +4980,10 @@
                  "visible":true,
                  "width":256,
                  "x":420.5,
-                 "y":2308
+                 "y":2336.5
                 }, 
                 {
-                 "height":128,
+                 "height":85.5,
                  "id":132,
                  "name":"game3Popup",
                  "rotation":0,
@@ -4991,7 +4991,7 @@
                  "visible":true,
                  "width":256,
                  "x":630.666666666667,
-                 "y":2275
+                 "y":2317.5
                 }],
          "opacity":1,
          "type":"objectgroup",
