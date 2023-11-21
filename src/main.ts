@@ -17,7 +17,7 @@ WA.onInit().then(() => {
                 label: "Open the map",
                 callback: async () => {
                     let url = WA.state.welcomeGuyURL as string
-                    website = await WA.nav.openCoWebSite(url);
+                    website = await WA.nav.openCoWebSite(url, false, "", 70);
                 }
             }
         ]);
@@ -31,7 +31,7 @@ WA.onInit().then(() => {
                 className: "primary",
                 label: "Open",
                 callback: async () => {
-                    website = await WA.nav.openCoWebSite("https://drive.google.com/uc?id=1sPr2ZLe6pF0rB3jtnzWWw0MGhhAkhNGi")
+                    website = await WA.nav.openCoWebSite("https://drive.google.com/uc?id=1sPr2ZLe6pF0rB3jtnzWWw0MGhhAkhNGi", false, "", 70)
                 }
             }
         ]);
