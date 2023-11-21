@@ -157,19 +157,6 @@ WA.onInit().then(() => {
     })
     WA.room.area.onLeave('presentationScreen1').subscribe(closePopup)
 
-    WA.room.area.onEnter('presentationScreen2').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen2Popup","Be More information",[
-            {
-                label: "Check it out!",
-                className: "primary",
-                callback: async () => {
-                    const url = WA.state.presentationScreen2URL as string
-                    website = await WA.nav.openCoWebSite(url);
-                }
-            }
-        ]);
-    })
-    WA.room.area.onLeave('presentationScreen2').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen3').subscribe(() => {
         popup = WA.ui.openPopup("presentationScreen3Popup","Be More information",[
@@ -184,20 +171,6 @@ WA.onInit().then(() => {
         ]);
     })
     WA.room.area.onLeave('presentationScreen3').subscribe(closePopup)
-
-    WA.room.area.onEnter('presentationScreen4').subscribe(() => {
-        popup = WA.ui.openPopup("presentationScreen4Popup","Be More information",[
-            {
-                label: "Check it out!",
-                className: "primary",
-                callback: async () => {
-                    const url = WA.state.presentationScreen4URL as string
-                    website = await WA.nav.openCoWebSite(url);
-                }
-            }
-        ]);
-    })
-    WA.room.area.onLeave('presentationScreen4').subscribe(closePopup)
 
     WA.room.area.onEnter('presentationScreen5').subscribe(() => {
         popup = WA.ui.openPopup("presentationScreen5Popup","Be More information",[
@@ -224,14 +197,10 @@ WA.onInit().then(() => {
             }
         ]);
     })
-    WA.room.onEnterLayer('zoneNFT').subscribe(() => {
-        popup = WA.ui.openPopup("nftPopup","NFT supply in progress...stay tuned!",[]);
-    })
 
     WA.room.onLeaveLayer('zoneComptoir1').subscribe(closePopup)
     WA.room.onLeaveLayer('zoneComptoir2').subscribe(closePopup)
     WA.room.onLeaveLayer('zoneBar').subscribe(closePopup)
-    WA.room.onLeaveLayer('zoneNFT').subscribe(closePopup)
     WA.room.onLeaveLayer('zoneSecurity').subscribe(closePopup)
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
