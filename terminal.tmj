@@ -2194,6 +2194,11 @@
                          "value":"jitsiBar1"
                         }, 
                         {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
+                        }, 
+                        {
                          "name":"silent",
                          "type":"bool",
                          "value":true
@@ -2309,6 +2314,11 @@
                          "value":"jitsiBar2"
                         }, 
                         {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
+                        }, 
+                        {
                          "name":"silent",
                          "type":"bool",
                          "value":true
@@ -2422,6 +2432,11 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"jitsiBar3"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
                         }, 
                         {
                          "name":"silent",

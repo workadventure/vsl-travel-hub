@@ -520,6 +520,11 @@
                          "value":"4-Muda"
                         }, 
                         {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
+                        }, 
+                        {
                          "name":"jitsiTrigger",
                          "type":"string",
                          "value":"onaction"
@@ -578,6 +583,11 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"3-Taiichi-Ohno"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -640,6 +650,11 @@
                          "value":"2-Kaizen"
                         }, 
                         {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
+                        }, 
+                        {
                          "name":"jitsiTrigger",
                          "type":"string",
                          "value":"onaction"
@@ -698,6 +713,11 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"1-Obeya"
+                        }, 
+                        {
+                         "name":"jitsiRoomAdminTag",
+                         "type":"string",
+                         "value":"member"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -1053,7 +1073,6 @@
          "name":"configuration",
          "objects":[
                 {
-                 "class":"variable",
                  "height":0,
                  "id":2,
                  "name":"exitURL",
@@ -1080,13 +1099,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":602,
                  "y":1016.66666666667
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":6,
                  "name":"northTVURL",
@@ -1108,13 +1127,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":231.5,
                  "y":85
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":3,
                  "name":"leftWhiteboardURL",
@@ -1136,13 +1155,13 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":487.5,
                  "y":78.5
                 }, 
                 {
-                 "class":"variable",
                  "height":0,
                  "id":5,
                  "name":"rightWhiteboardURL",
@@ -1164,6 +1183,7 @@
                          "value":true
                         }],
                  "rotation":0,
+                 "type":"variable",
                  "visible":true,
                  "width":0,
                  "x":777,
@@ -1343,7 +1363,7 @@
          "value":"src\/destination.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.2",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {
@@ -1540,6 +1560,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.9",
+ "version":"1.10",
  "width":32
 }
